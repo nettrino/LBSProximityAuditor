@@ -3,7 +3,7 @@
 Copyright (c) 2014, Columbia University
 All rights reserved.
 
-This software was developed by (alphabetically)
+This software was designed by (alphabetically)
 
 George Argyros <argyros@cs.columbia.edu>
 Theofilos Petsios <theofilos@cs.columbia.edu>

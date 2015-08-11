@@ -37,18 +37,31 @@ passed as a parameter to LBSProximityAuditor for automatically evaluating the se
 For thorough examples on how to implement your own auditing class for your
 service, please see the example_auditor.py file.
 
+This software was designed by (alphabetically)
+George Argyros <argyros@cs.columbia.edu>
+Theofilos Petsios <theofilos@cs.columbia.edu>
+Jason Polakis <polakis@cs.columbia.edu>
+Suphannee Sivakorn <suphannee@cs.columbia.edu>
+
+and developed by Theofilos Petsios at Columbia University, New York, NY,
+USA, in November 2014. You should receive a copy of the GPLv3 license
+with this document.
 
 Installation
 ============
 
-The following installation instructions are based onthe pip package manager but
-if you would like to follow a different installation procedure, you can find
-all the required packages in requirements.txt
+The required packages for running LBSProximityAuditor are included in
+requirements.txt. You may install the respective packages according to your
+OS / Python version. For instance, for a Debian running Python 2.7 one can
+run
 
-Install the dependencies via
+    sudo apt-get update && sudo apt-get upgrade
+    sudo apt-get install python-dev python-shapely python-lxml
+    pip install pykml pyproj requests
 
+Alternatively, if you have virtualenv configured, you may install packages
+via
     pip install -r requirements.txt
-
 
 Running
 =======
@@ -84,3 +97,5 @@ as an offensive tool.
 
 Reverse engineering the protocols and API calls of various services may violate
 the Terms and Conditions of those services.
+
+
