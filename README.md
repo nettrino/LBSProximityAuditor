@@ -37,11 +37,12 @@ passed as a parameter to LBSProximityAuditor for automatically evaluating the se
 For thorough examples on how to implement your own auditing class for your
 service, please see the example_auditor.py file.
 
-This software was designed by (alphabetically)
-George Argyros <argyros@cs.columbia.edu>
-Theofilos Petsios <theofilos@cs.columbia.edu>
-Jason Polakis <polakis@cs.columbia.edu>
-Suphannee Sivakorn <suphannee@cs.columbia.edu>
+This software was designed by (alphabetically):
+
+George Argyros <argyros@cs.columbia.edu></br>
+Theofilos Petsios <theofilos@cs.columbia.edu></br>
+Jason Polakis <polakis@cs.columbia.edu></br>
+Suphannee Sivakorn <suphannee@cs.columbia.edu></br>
 
 and developed by Theofilos Petsios at Columbia University, New York, NY,
 USA, in November 2014. You should receive a copy of the GPLv3 license
@@ -61,6 +62,7 @@ run
 
 Alternatively, if you have virtualenv configured, you may install packages
 via
+
     pip install -r requirements.txt
 
 Running
