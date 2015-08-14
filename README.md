@@ -30,7 +30,7 @@ implemented the following two API calls:
     a specific set of coordinates.
 
 Once the auditor implements the above calls, both the limit tests and the
-attacks work "off-the-shelf". In cases where the service does not use
+attacks work out of the box. In cases where the service does not use
 standard proximity oracles (i.e., exact distance, ring-based or disk-based)
 auditors can specify their own proximity oracle; subsequently, that can be
 passed as a parameter to LBSProximityAuditor for automatically evaluating the service.
