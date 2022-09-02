@@ -1,6 +1,6 @@
 lxml==2.3.2
 numpy==1.9.2
-pykml==0.1.0
+pykml==0.2.0
 pyproj==1.9.4
 requests==2.5.1
 Shapely==1.5.5
